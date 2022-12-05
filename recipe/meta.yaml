@@ -1,5 +1,5 @@
 {% set name = "ghostPii" %}
-{% set version = "1.0.12" %}
+{% set version = "1.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ghostPii-{{ version }}.tar.gz
-  sha256: de68006248401a98ccf0522b1d1743b80d2a2fcebe7e5257ffe09de0a0b13c6f
+  sha256: 1685fbe79093a5bcc25471e0f46d0cfd85e2428cb459d16682ab6a03e65ef014
 
 build:
   noarch: python
